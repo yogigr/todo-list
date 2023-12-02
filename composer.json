@@ -1,0 +1,25 @@
+{
+    "name": "yogigr/todo-list",
+    "description": "Todo list package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yogi Gilang Ramadhan",
+            "email": "yogigilang182@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YogiGr\\TodoList\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YogiGr\\TodoList\\TodoListServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
